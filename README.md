@@ -11,6 +11,9 @@ In  case of challenges like I had with step 4, try the below troubleshooting ste
 1. brew update && brew upgrade
 2. brew uninstall --ignore-dependencies openssl
 3. brew install openssl
+
+
+
 `References:`
 https://medium.com/civis-analytics/prediction-at-scale-with-scikit-learn-and-pyspark-pandas-udfs-51d5ebfb2cd8
 
@@ -19,8 +22,8 @@ https://makersportal.com/blog/2018/7/20/geographic-mapping-from-a-csv-file-using
 
 
 
-------------------------------------------------------------------------------------
-Attempts to use basemap which is older version of Cartopy.
+---------------------------------------------------------------------------------------------------------------
+Attempts to use basemap which is older version of Cartopy. Inspite of the below steps basemap didn't not work
 1. brew install proj
 2. brew install geos
 3. Download Opensource Geometry Engine from here http://download.osgeo.org/geos/geos-3.8.1.tar.bz2.
